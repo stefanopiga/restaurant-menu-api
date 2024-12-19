@@ -59,9 +59,9 @@ http://localhost:4000/graphql
 
 ## EXAMPLES OF QUERIES
 
-```bash
-Appetizer
+- **Appetizer**
 
+```bash
 {
   appetizers {
     id
@@ -69,12 +69,11 @@ Appetizer
     price
   }
 }
+```
 
+- **Entrees**
 
-
-
-Entrees
-
+```bash
 {
   entrees {
     id
@@ -82,11 +81,11 @@ Entrees
     price
   }
 }
+```
 
+- **Sandwiches**
 
-
-Sandwiches
-
+```bash
 {
   sandwiches {
     id
@@ -94,18 +93,17 @@ Sandwiches
     price
   }
 }
-
 ```
 
-## Testing
+## TESTING
 
-    To run automated tests:
+- **To run automated tests:**
 
 ```bash
 npm test
 ```
 
-## Notes
+## NOTES
 
-    This project is designed to be modular and easily extensible.
-    If additional categories are required, simply update data.js and schema.js.
+**This project is designed to be modular and easily extensible.**
+**If additional categories are required, simply update data.js and schema.js.**
